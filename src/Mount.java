@@ -7,23 +7,23 @@ public class Mount {
 	private String mountType;
 
 	
-	public void Mount(double inputLength)
+	public Mount(double inputLength)
 	{
 		length = inputLength; 
 		height = inputLength;
 	}
-	public void Mount(double inputLength, double inputHeight)
+	public Mount(double inputLength, double inputHeight)
 	{
 		length = inputLength; 
 		height = inputHeight;
 	}
-	public void Mount(double inputLength, String type)
+	public Mount(double inputLength, String type)
 	{
 		length = inputLength; 
 		height = inputLength;
 		mountType = type;
 	}
-	public void Mount(double inputLength, double inputHeight,String type)
+	public Mount(double inputLength, double inputHeight,String type)
 	{
 		length = inputLength; 
 		height = inputHeight;

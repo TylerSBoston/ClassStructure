@@ -10,11 +10,11 @@ public class Wall {
 	double heightEnd;
 	// doors so you don't have to paint them. 
 	LinkedList<Door> doors = new LinkedList<Door>();
-	// use windows for windows or other holes in the wall for partially seperated rooms
+	// use windows for windows or other holes in the wall for partially separated rooms
 	LinkedList<Window> windows = new LinkedList<Window>();
 	// light switches, AC units, Vents, ect.
 	LinkedList<Mount> mounts = new LinkedList<Mount>();
-	//used for calculating complex floor area
+	//used for calculating more complex floor area, aka connect the dots into a room shape
 	Point startNode = new Point();
 	Point endNode = new Point();
 	

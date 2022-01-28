@@ -2,8 +2,6 @@
 public class Window {
 	private double length;
 	private double height;
-	// rooms the window connects, leave second value null if it leads outside, yes windows from room to room are allowed
-	private Room[] connectedRooms = new Room[2]; 
 	
 	
 	public Window(double inputLength)
